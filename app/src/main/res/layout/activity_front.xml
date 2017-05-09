@@ -8,10 +8,19 @@
     tools:context="com.crocias.animalium.FrontActivity">
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:src="@drawable/logo"
         />
+
+    <EditText
+        android:layout_below="@id/logo"
+        android:id="@+id/mEditTextNama"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan nama Anda"/>
 
     <Button
         android:id="@+id/mBtnMasuk"
